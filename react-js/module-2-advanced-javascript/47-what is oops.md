@@ -357,4 +357,5 @@ or
 
 An encapsulation is a process where all method wrapping up in one objects there we used encapsulation.
 
-    
+
+
