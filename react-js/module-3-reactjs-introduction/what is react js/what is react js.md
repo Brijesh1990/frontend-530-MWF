@@ -67,6 +67,7 @@
 
 
 ## how to install react js app ?
+
    1. download node js in your systems 
    2. check node js version node -v
    3. check NPM and NPX version npm -v or npx -v
@@ -99,6 +100,15 @@
    11. cd appname
    12. npm run dev
 
+    http://localhost:5173/
+
+    **How to change react js server port**
+
+    ``` 
+    create a .env file
+    PORT=3000
+    ```
+   
    **note:used create-rect-app method its slow**
    **note:used create vite@latest method is fast**
 
