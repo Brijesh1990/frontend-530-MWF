@@ -1,5 +1,6 @@
 import React from "react";
 import { FaUserCheck,FaIndent,FaBook,FaMapMarker } from "react-icons/fa";
+// prps destructuring or props drilling 
 function OfficeApp({name,id,dep,address})
 {
     return (

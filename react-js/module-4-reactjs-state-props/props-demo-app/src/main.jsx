@@ -8,7 +8,6 @@ import OfficeApp from './OfficeApp'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    
 
     {/* <EmployeeApp id="st008" fullname="Brijesh Kumar Pandey" salary="89500" address="150 feet ring road behind savan signet raiya Road Rajkot-360005" /> */}
 

@@ -37,3 +37,21 @@
      export default App
     ```
 
+
+# what is destructuring or drilling  in  props  ?
+  1. destructuring is used to access multiple properties pass as an object inside of functions 
+  2. destructuring access all properties inside of objects {name,age}
+
+   ```
+     function App({name,age})
+     {
+        return (
+            <>
+               <h1>{name}</h1>
+               <h2>{age}</h2>
+            </>
+        )
+     }
+     export default App
+    ```
+
