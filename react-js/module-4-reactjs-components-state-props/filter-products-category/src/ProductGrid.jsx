@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import { Container,Row } from "react-bootstrap";
 import Data from "./Data";
 function ProductGrid() {
   const [filteredData, setFilteredData] = useState(Data);
@@ -32,19 +33,20 @@ function ProductGrid() {
 
  return(
     <>
-      <div className="app"> 
+      <Container className="mt-5 p-5">
+        <Row className="gap-0"> 
         <h1>Products filter app</h1>
-        <button type="button" onClick={showAll}>All</button>
-        <button type="button" onClick={tShirts}>T-Shirts</button>
-        <button type="button" onClick={shorts}>Short</button>
-        <button type="button" onClick={paint}>Paints</button>
-        <button type="button" onClick={boot}>Boots</button>
+        <button type="button" onClick={showAll} className="btn btn-md btn-danger">All</button>
+        <button type="button" onClick={tShirts} className="btn btn-md btn-danger">T-Shirts</button>
+        <button type="button" onClick={shorts} className="btn btn-md btn-danger">Short</button>
+        <button type="button" onClick={paint} className="btn btn-md btn-danger">Paints</button>
+        <button type="button" onClick={boot} className="btn btn-md btn-danger">Boots</button>
         {/* fetch data  */}
-        <div className="product-grid">
+   
             {filteredData.map((item,index)=>{
                 return(
                     <>
-                   <div className="prod-app">
+                   <div className="col-md-3 prod-grid mt-5">
                     <p><img src={item.photo} alt="photo" /></p>
                     <p><b>{item.name}</b></p>
                     <p><b>Category:</b>{item.category}</p>
@@ -53,10 +55,9 @@ function ProductGrid() {
                 </>
                 )
             })}
-            
-            
-        </div>
-      </div>        
+      
+        </Row>
+        </Container>      
     </>
  )   
 }
