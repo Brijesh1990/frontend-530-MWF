@@ -2,6 +2,18 @@ import React from 'react'
 import category1 from '../images/pharmacy-WEB.avif'
 import category2 from '../images/Pet-Care_WEB.avif'
 import category3 from '../images/babycare-WEB.avif'
+import product1 from '../images/Slice-11.avif'
+import product2 from '../images/Slice-12.avif'
+import product3 from '../images/Slice-13.avif'
+import product4 from '../images/Slice-14.avif'
+import product5 from '../images/Slice-15.avif'
+import product6 from '../images/Slice-16.avif'
+import product7 from '../images/roll1.avif'
+import product8 from '../images/roll2.avif'
+import product9 from '../images/roll3.avif'
+import product10 from '../images/roll4.avif'
+import product11 from '../images/roll5.avif'
+import product12 from '../images/roll6.avif'
 
 export default function ContentApp() {
   return (
@@ -47,7 +59,7 @@ export default function ContentApp() {
         {/* product card */}
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-11.avif"
+            src={product4}
             alt="Product 1"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
@@ -55,133 +67,135 @@ export default function ContentApp() {
         {/* repeat product card for more products */}
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-12.avif"
+            src={product1}
             alt="Product 2"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-13.avif"
+            src={product2}
             alt="Product 3"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-14.avif"
+            src={product3}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-15.avif"
+            src={product4}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-17.avif"
+            src={product1}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-19.avif"
+            src={product4}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-20.avif"
+            src={product5}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-2_10.avif"
+            src={product6}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-7-1_0.avif"
+            src={product4}
+            alt="Product 4"
+            className="w-full h-40 object-cover rounded-md mb-4"
+          />
+        </div>
+
+       <div className="bg-white rounded-lg shadow p-4">
+          <img
+            src={product1}
+            alt="Product 2"
+            className="w-full h-40 object-cover rounded-md mb-4"
+          />
+        </div>
+        <div className="bg-white rounded-lg shadow p-4">
+          <img
+            src={product2}
+            alt="Product 3"
+            className="w-full h-40 object-cover rounded-md mb-4"
+          />
+        </div>
+        <div className="bg-white rounded-lg shadow p-4">
+          <img
+            src={product3}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-4_9.avif"
+            src={product4}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-4_9.avif"
+            src={product1}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-5_4.avif"
+            src={product4}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-5_4.avif"
+            src={product5}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-8_4.avif"
+            src={product6}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-20.avif"
+            src={product4}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
         </div>
+
         <div className="bg-white rounded-lg shadow p-4">
           <img
-            src="images/Slice-2_10.avif"
-            alt="Product 4"
-            className="w-full h-40 object-cover rounded-md mb-4"
-          />
-        </div>
-        <div className="bg-white rounded-lg shadow p-4">
-          <img
-            src="images/Slice-7-1_0.avif"
-            alt="Product 4"
-            className="w-full h-40 object-cover rounded-md mb-4"
-          />
-        </div>
-        <div className="bg-white rounded-lg shadow p-4">
-          <img
-            src="images/Slice-4_9.avif"
-            alt="Product 4"
-            className="w-full h-40 object-cover rounded-md mb-4"
-          />
-        </div>
-        <div className="bg-white rounded-lg shadow p-4">
-          <img
-            src="images/Slice-8_4.avif"
+            src={product4}
             alt="Product 4"
             className="w-full h-40 object-cover rounded-md mb-4"
           />
@@ -202,7 +216,7 @@ export default function ContentApp() {
           {/* product card */}
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll1.avif"
+              src={product7}
               alt="Product 1"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -223,7 +237,7 @@ export default function ContentApp() {
           {/* repeat product card for more products */}
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll2.avif"
+              src={product8}
               alt="Product 2"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -243,7 +257,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll3.avif"
+              src={product8}
               alt="Product 3"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -263,7 +277,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll4.avif"
+              src={product9}
               alt="Product 4"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -283,7 +297,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll5.avif"
+              src={product10}
               alt="Product 5"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -303,7 +317,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll6.avif"
+              src={product12}
               alt="Product 6"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -338,7 +352,7 @@ export default function ContentApp() {
           {/* product card */}
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll1.avif"
+              src={product11}
               alt="Product 1"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -359,7 +373,7 @@ export default function ContentApp() {
           {/* repeat product card for more products */}
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll2.avif"
+              src={product7}
               alt="Product 2"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -379,7 +393,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll3.avif"
+              src={product8}
               alt="Product 3"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -399,7 +413,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll4.avif"
+              src={product9}
               alt="Product 4"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -419,7 +433,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll5.avif"
+              src={product10}
               alt="Product 5"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -439,7 +453,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll6.avif"
+              src={product11}
               alt="Product 6"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -474,7 +488,7 @@ export default function ContentApp() {
           {/* product card */}
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll1.avif"
+              src={product7}
               alt="Product 1"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -495,7 +509,7 @@ export default function ContentApp() {
           {/* repeat product card for more products */}
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll2.avif"
+              src={product8}
               alt="Product 2"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -515,7 +529,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll3.avif"
+              src={product9}
               alt="Product 3"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -535,7 +549,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll4.avif"
+              src={product10}
               alt="Product 4"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -555,7 +569,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll5.avif"
+              src={product10}
               alt="Product 5"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -575,7 +589,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll6.avif"
+              src={product11}
               alt="Product 6"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -610,7 +624,7 @@ export default function ContentApp() {
           {/* product card */}
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll1.avif"
+              src={product7}
               alt="Product 1"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -631,7 +645,7 @@ export default function ContentApp() {
           {/* repeat product card for more products */}
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll2.avif"
+              src={product7}
               alt="Product 2"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -651,7 +665,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll3.avif"
+              src={product11}
               alt="Product 3"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -671,7 +685,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll4.avif"
+              src={product12}
               alt="Product 4"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -691,7 +705,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll5.avif"
+              src={product7}
               alt="Product 5"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -711,7 +725,7 @@ export default function ContentApp() {
           </div>
           <div className="bg-white rounded-lg shadow p-4">
             <img
-              src="images/roll6.avif"
+              src={product12}
               alt="Product 6"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
