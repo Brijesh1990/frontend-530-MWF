@@ -1,122 +1,140 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import React,{useRef} from 'react'
+// import Swal from 'sweetalert2';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import appoint from './doctor.png'
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  // create each input to stored via useRef() hooks 
+  const fullname=useRef("");
+  const phone=useRef("");
+  const email=useRef("");
+  const depname=useRef("");
+  const date=useRef("");
+  const time=useRef("");
+  const message=useRef("");
 
+  // create a function for submit all data 
+
+  const addFormData=(e)=>{
+      e.preventDefault();
+       var insertData={
+         
+         fullname:fullname.current.value,
+         phone:phone.current.value,
+         email:email.current.value,
+         depname:depname.current.value,
+         date:date.current.value,
+         time:time.current.value,
+         message:message.current.value,
+       
+       }
+      //print data 
+
+      // pass a sweet alert messages 
+
+      // Swal.fire({
+      // title: "wow",
+      // text: "Thanks for appointemt booking",
+      // icon: "success"
+      // });
+
+       toast.success("Thanks for appointment successfully booked !", {
+       position: "top-right"
+    
+      });
+     
+      console.log(insertData);
+      // reset form data after submitted form 
+      e.target.reset();
+
+  }
+  
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+  
+  <div className="container appointment-section">
+  <div className="row g-4 w-100">
+    {/* Image Grid */}
+    <div className="col-lg-6 d-none d-lg-block">
+      <div className="image-container top-0 fixed-top img-fluid w-50 ms-5">
+        <img
+          src={appoint}
+          alt="Doctor" className=''
+        />
+      </div>
+    </div>
+    {/* Form Grid */}
+    <div className="col-lg-6 col-md-12 mt-5">
+      <div className="form-container mt-5">
 
-      <div className="ticks"></div>
+        <h3 className="mb-4 text-center">Book Appointment</h3>
+        <ToastContainer />
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        <form onSubmit={addFormData}>
+          <div className="row">
+            <div className="col-md-6 mb-3">
+              <label className="form-label">Full Name</label>
+              <input
+                type="text" ref={fullname}
+                className="form-control"
+                placeholder="Enter name" required
+              />
+            </div>
+            <div className="col-md-6 mb-3">
+              <label className="form-label">Phone</label>
+              <input
+                type="tel" ref={phone}
+                className="form-control"
+                placeholder="Enter phone" required
+              />
+            </div>
+            <div className="col-md-6 mb-3">
+              <label className="form-label">Email</label>
+              <input
+                type="email" ref={email}
+                className="form-control"
+                placeholder="Enter email" required
+              />
+            </div>
+            <div className="col-md-6 mb-3">
+              <label className="form-label">Department</label>
+              <select className="form-select" ref={depname} required>
+                <option>Select Department</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="nerology">Neurology</option>
+                <option value="orthopedics">Orthopedics</option>
+                <option value="dermatology">Dermatology</option>
+              </select>
+            </div>
+            <div className="col-md-6 mb-3">
+              <label className="form-label">Date</label>
+              <input type="date" ref={date} required className="form-control" />
+            </div>
+            <div className="col-md-6 mb-3">
+              <label className="form-label">Time</label>
+              <input type="time" ref={time} required className="form-control" />
+            </div>
+            <div className="col-12 mb-3">
+              <label className="form-label">Message</label>
+              <textarea ref={message} required
+                className="form-control"
+                rows={3}
+                placeholder="Describe your issue"
+                defaultValue={""}
+              />
+            </div>
+            <div className="col-12">
+              <button type="submit"  className="btn btn-primary w-100">
+                Book Appointment
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+
   )
 }
-
-export default App
