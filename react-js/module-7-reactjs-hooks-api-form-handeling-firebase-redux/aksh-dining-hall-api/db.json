@@ -1,0 +1,107 @@
+{
+  "feedback": [
+    {
+      "fullname": "aksh patel",
+      "email": "aksh@gmail.com",
+      "phone": "9998003879",
+      "rate": "5star",
+      "msg": "good i am attending merrage of my brother happy merrage date",
+      "id": "roOdJENW_rA"
+    },
+    {
+      "fullname": "jaydeep",
+      "email": "jaydeep@gmail.com",
+      "phone": "9998003879",
+      "rate": "5star",
+      "msg": "hey give me a customers care numbers i dont find but your service is nice",
+      "id": "TSCPhZ7udZc"
+    },
+    {
+      "fullname": "hetvi",
+      "email": "hetvi@gmail.com",
+      "phone": "9714111189",
+      "rate": "2star",
+      "msg": "hi i am hetvi",
+      "id": "4vrdDJP_Lec"
+    },
+    {
+      "fullname": "neeldeep",
+      "email": "neeldeep@gmail.com",
+      "phone": "09714111189",
+      "msg": "he good to go",
+      "id": "QjdDbYvrXeQ"
+    },
+    {
+      "fullname": "Ravi Dhandhukiya",
+      "email": "ravi@gmail.com",
+      "phone": "09714111189",
+      "msg": "hi",
+      "id": "TwaaoQUTkU0"
+    },
+    {
+      "fullname": "Ravi Dhandhukiya",
+      "email": "ravi@gmail.com",
+      "phone": "09714111189",
+      "rate": "4star",
+      "msg": "hi",
+      "id": "8Fn4mqMCnzc"
+    },
+    {
+      "fullname": "Ravi Dhandhukiya",
+      "email": "ravi@gmail.com",
+      "phone": "09714111189",
+      "msg": "h",
+      "id": "yffpe6wGWSM"
+    },
+    {
+      "fullname": "Ravi Dhandhukiya",
+      "email": "ravi@gmail.com",
+      "phone": "09714111189",
+      "rate": "4star",
+      "msg": "hi",
+      "id": "3rKhkJRZ7ao"
+    },
+    {
+      "fullname": "Ravi Dhandhukiya",
+      "email": "ravi@gmail.com",
+      "phone": "09714111189",
+      "msg": "gi",
+      "id": "MVSGTu3RqHk"
+    },
+    {
+      "fullname": "Ravi Dhandhukiya",
+      "email": "ravi@gmail.com",
+      "phone": "09714111189",
+      "rate": "3star",
+      "msg": "hi",
+      "id": "o3FnQDgJ0G8"
+    },
+    {
+      "fullname": "kumar",
+      "email": "kumar@gmail.com",
+      "phone": "09714111189",
+      "rate": "5star",
+      "msg": "hi",
+      "id": "uWj0dP8YQp4"
+    }
+  ],
+  "contact": [
+    {
+      "name": "brijesh",
+      "email": "brijesh@gmail.com",
+      "phone": "9998003879",
+      "subject": "24x7 customer support",
+      "comment": "hi",
+      "id": "DfH_MRtUYKo"
+    },
+    {
+      "name": "jinesh",
+      "email": "jinesh@gmail.com",
+      "phone": "9998003879",
+      "subject": "hi",
+      "comment": "hi",
+      "id": "WEXoy3fwAcE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
