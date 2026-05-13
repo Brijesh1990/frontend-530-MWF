@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderApp from './components/HeaderApp'
 import BannerApp from './components/BannerApp'
 import ContentApp from './components/ContentApp'
-import CustomerReviews from './components/samples/CustomerReviews'
+import CustomerReviews from './components/CustomerReviews'
 import FooterApp from './components/FooterApp'
 export default function Layout() {
   return (
