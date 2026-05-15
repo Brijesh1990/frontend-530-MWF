@@ -8,7 +8,7 @@ export default function SidebarApp() {
     <p className="text-white/70 text-sm mt-2">Heritage Dining Dashboard</p>
   </div>
   <nav className="mt-12 space-y-3">
-    <Link to="#"
+    <Link to="/admin-login/dashboard"
       className="flex items-center gap-3 px-4 py-3 rounded-xl bg-[#ffffff15] hover:bg-[#ffffff20] transition"
     >
       🏠 Dashboard

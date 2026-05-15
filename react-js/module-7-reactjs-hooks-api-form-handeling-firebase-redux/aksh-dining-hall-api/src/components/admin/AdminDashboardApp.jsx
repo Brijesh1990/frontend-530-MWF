@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CountApp from './CountApp'
 export default function AdminDashboardApp() {
   return (
     <div className="p-6 space-y-8">
@@ -33,7 +33,7 @@ export default function AdminDashboardApp() {
       <div className="flex items-center justify-between">
         <div>
           <p className="text-gray-500 text-sm">Guest Reviews</p>
-          <h3 className="text-4xl font-bold mt-3 text-[#5c0d12]">4.9</h3>
+          <h3 className="text-4xl font-bold mt-3 text-[#5c0d12]"><CountApp /></h3>
         </div>
         <div className="w-16 h-16 rounded-2xl bg-[#f8e1cc] flex items-center justify-center text-3xl">
           ⭐

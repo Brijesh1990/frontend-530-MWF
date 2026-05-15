@@ -4,9 +4,10 @@ import axios from 'axios'
 import SidebarApp from './SidebarApp'
 import AdminHeaderApp from './AdminHeaderApp'
 import AdminDashboardApp from './AdminDashboardApp'
+import CountApp from './CountApp'
 export default function AdminManageReviews() {
 //destructuring of data
-const[data,setData]=useState([]);
+const[data,setData]=useState();
 // data is a variables 
 // setData is a function to update current state
 // fetch data using axios 
@@ -29,7 +30,7 @@ return (
 {/* Manage Reviews  */}
 <div className="bg-white rounded-[32px] p-6 shadow-sm">
 <div className="flex items-center justify-between mb-6">
-<h3 className="heading-font text-4xl text-[#6c1118]">Manage All Reviews  <button className='bg-red-500 text-white p-3 rounded-full ms-40 text-xl'>Total Reviews <span className='bg-black p-1 rounded-full'>{data.length}</span></button></h3>
+<h3 className="heading-font text-4xl text-[#6c1118]">Manage All Reviews  <button className='bg-red-500 text-white p-3 rounded-full ms-40 text-xl'>Total Reviews <span className='bg-black p-1 rounded-full flex inline-flex'><CountApp /></span></button></h3>
 <button className="bg-[#7c151b] text-white px-5 py-3 rounded-xl">
 View All
 </button>
