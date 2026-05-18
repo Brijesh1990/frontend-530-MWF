@@ -10,6 +10,8 @@ import './index.css'
 import AdminLoginApp from './components/admin/AdminLoginApp'
 import AdminLayout from './AdminLayout'
 import AdminManageReviews from './components/admin/AdminManageReviews'
+import AdminManageContact from './components/admin/AdminManageContact'
+import AdminAddMenu from './components/admin/AdminAddMmenu'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Router>
@@ -20,6 +22,9 @@ createRoot(document.getElementById('root')).render(
         <Route path='/admin-login' element={<AdminLoginApp />} />
         <Route path='/admin-login/dashboard' element={<AdminLayout />} />
         <Route path='/admin-login/manage-reviews' element={<AdminManageReviews />} />
+        <Route path='/admin-login/manage-contact' element={<AdminManageContact />} />
+
+         <Route path='/admin-login/add-menu' element={<AdminAddMenu />} />
  
       </Routes>
     </Router>

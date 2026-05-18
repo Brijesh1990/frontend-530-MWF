@@ -1,11 +1,11 @@
 import React,{useState,useEffect} from 'react'
 import axios from 'axios'
 
-export default function CountApp() {
+export default function CountContactApp() {
 const[data,setData]=useState([]);
 // fetch api using useEffect() hooks
 useEffect(()=>{
-axios.get(`http://localhost:8000/feedback`).then((response)=>{
+axios.get(`http://localhost:8000/contact`).then((response)=>{
 
 setData(response.data);
 })

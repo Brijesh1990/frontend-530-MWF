@@ -1,5 +1,7 @@
 import React from 'react'
 import CountApp from './CountApp'
+import CountContactApp from './CountContactApp'
+import { Link } from 'react-router-dom'
 export default function AdminDashboardApp() {
   return (
     <div className="p-6 space-y-8">
@@ -31,10 +33,13 @@ export default function AdminDashboardApp() {
     </div>
     <div className="bg-white rounded-3xl p-6 shadow-sm card-hover fade-up">
       <div className="flex items-center justify-between">
+        
+        <Link to="/admin-login/manage-reviews">
         <div>
           <p className="text-gray-500 text-sm">Guest Reviews</p>
           <h3 className="text-4xl font-bold mt-3 text-[#5c0d12]"><CountApp /></h3>
         </div>
+        </Link>
         <div className="w-16 h-16 rounded-2xl bg-[#f8e1cc] flex items-center justify-center text-3xl">
           ⭐
         </div>
@@ -45,10 +50,12 @@ export default function AdminDashboardApp() {
     </div>
     <div className="bg-white rounded-3xl p-6 shadow-sm card-hover fade-up">
       <div className="flex items-center justify-between">
-        <div>
-          <p className="text-gray-500 text-sm">Reservations</p>
-          <h3 className="text-4xl font-bold mt-3 text-[#5c0d12]">326</h3>
+
+        <Link to="/admin-login/manage-contact"><div>
+          <p className="text-gray-500 text-sm">Total Contacts</p>
+          <h3 className="text-4xl font-bold mt-3 text-[#5c0d12]"><CountContactApp /></h3>
         </div>
+        </Link>
         <div className="w-16 h-16 rounded-2xl bg-[#f8e1cc] flex items-center justify-center text-3xl">
           📅
         </div>
