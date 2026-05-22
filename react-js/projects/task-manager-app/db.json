@@ -1,0 +1,33 @@
+{
+  "addtask": [
+    {
+      "taskName": "laravel rest crud api",
+      "taskPriority": "high",
+      "taskDate": "2026-05-22",
+      "taskDetails": "create all in laravel using sanctum api lbraries",
+      "id": "0JaA-9IWJGw"
+    },
+    {
+      "taskName": "angular crud api",
+      "taskPriority": "medium",
+      "taskDate": "2026-05-25",
+      "taskDetails": "create a module wise api",
+      "id": "rej6STvJMjQ"
+    },
+    {
+      "taskName": "call api in react js of task manager app",
+      "taskPriority": "low",
+      "taskDate": "2026-05-27",
+      "taskDetails": "use hooks and axios to call api in react js",
+      "id": "WYRpg_LKAWI"
+    },
+    {
+      "taskName": "crud app in react js",
+      "taskPriority": "high",
+      "taskDate": "2025-04-21",
+      "taskDetails": "added",
+      "id": "BVZOZp5aH98"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

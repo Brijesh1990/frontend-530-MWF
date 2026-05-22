@@ -258,10 +258,11 @@ className="w-20 h-20 rounded-xl object-cover"
 
 <td className="py-5"><div className="w-60 h-40 overflow-auto">{item.description}</div></td>
 <td>
-<button
+<button onClick={()=>{navigate(`/admin-login/delete-menu/${item.id}`)}}
 className='bg-red-500 text-white p-2 rounded-2xl'
 >
 <FaTrash />
+
 </button>
 
 <button
