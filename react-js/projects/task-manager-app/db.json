@@ -1,32 +1,39 @@
 {
   "addtask": [
     {
-      "taskName": "laravel rest crud api",
+      "taskName": "ajhghgh",
       "taskPriority": "high",
-      "taskDate": "2026-05-22",
-      "taskDetails": "create all in laravel using sanctum api lbraries",
-      "id": "0JaA-9IWJGw"
+      "taskDate": "2025-04-24",
+      "taskDetails": "jhjh",
+      "id": "nuV9RoT4XNo"
     },
     {
-      "taskName": "angular crud api",
-      "taskPriority": "medium",
-      "taskDate": "2026-05-25",
-      "taskDetails": "create a module wise api",
-      "id": "rej6STvJMjQ"
-    },
-    {
-      "taskName": "call api in react js of task manager app",
+      "taskName": "react js",
       "taskPriority": "low",
-      "taskDate": "2026-05-27",
-      "taskDetails": "use hooks and axios to call api in react js",
-      "id": "WYRpg_LKAWI"
+      "taskDate": "2026-05-25",
+      "taskDetails": "hi",
+      "id": "mcl7gws_15A"
     },
     {
-      "taskName": "crud app in react js",
+      "taskName": "angular js crud app",
       "taskPriority": "high",
-      "taskDate": "2025-04-21",
-      "taskDetails": "added",
-      "id": "BVZOZp5aH98"
+      "taskDate": "2026-05-25",
+      "taskDetails": "hi",
+      "id": "uCkU6m8JXt0"
+    },
+    {
+      "taskName": "laravel sanctum api integeration",
+      "taskPriority": "medium",
+      "taskDate": "2025-04-30",
+      "taskDetails": "hi",
+      "id": "yFKV9w-aABU"
+    },
+    {
+      "taskName": "ds database with SQL and myslworkbench",
+      "taskPriority": "low",
+      "taskDate": "2026-06-11",
+      "taskDetails": "don easign task before due date",
+      "id": "KQrGPWqkfRI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
