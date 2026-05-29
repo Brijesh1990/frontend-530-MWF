@@ -79,9 +79,11 @@ items.taskPriority === "high"
 <td className="px-6 py-4">
 <div className="flex items-center justify-center gap-3">
 {/* Edit Button */}
-<button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-xl transition duration-300 shadow-md">
+
+<button onClick={()=>{navigate(`/edit-task/${items.id}`)}} className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-xl transition duration-300 shadow-md">
 <FaEdit />
 </button>
+
 {/* Delete Button */}
 <button type='button' onClick={()=>{navigate(`/delete-task/${items.id}`)}} className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-xl transition duration-300 shadow-md">
 <FaTrash />

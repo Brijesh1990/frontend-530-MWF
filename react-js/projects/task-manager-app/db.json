@@ -1,39 +1,18 @@
 {
   "addtask": [
     {
-      "taskName": "ajhghgh",
+      "taskName": "sanctum rest api using laravel",
       "taskPriority": "high",
-      "taskDate": "2025-04-24",
-      "taskDetails": "jhjh",
+      "taskDate": "2025-04-25",
+      "taskDetails": "good make sure every status get updated",
       "id": "nuV9RoT4XNo"
     },
     {
-      "taskName": "react js",
+      "taskName": "flutter mobile app ",
       "taskPriority": "low",
-      "taskDate": "2026-05-25",
-      "taskDetails": "hi",
+      "taskDate": "2026-05-29",
+      "taskDetails": "call api in mobile using flutter ",
       "id": "mcl7gws_15A"
-    },
-    {
-      "taskName": "angular js crud app",
-      "taskPriority": "high",
-      "taskDate": "2026-05-25",
-      "taskDetails": "hi",
-      "id": "uCkU6m8JXt0"
-    },
-    {
-      "taskName": "laravel sanctum api integeration",
-      "taskPriority": "medium",
-      "taskDate": "2025-04-30",
-      "taskDetails": "hi",
-      "id": "yFKV9w-aABU"
-    },
-    {
-      "taskName": "ds database with SQL and myslworkbench",
-      "taskPriority": "low",
-      "taskDate": "2026-06-11",
-      "taskDetails": "don easign task before due date",
-      "id": "KQrGPWqkfRI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
