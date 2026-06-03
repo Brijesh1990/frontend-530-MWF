@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import { useNavigate } from 'react-router-dom';
  import { ToastContainer, toast } from 'react-toastify';
 export default function AddTask() {
 // create a desructured state for add task via form 
@@ -6,7 +7,7 @@ export default function AddTask() {
     const [taskDate, setTaskDate] = useState('')
     const [taskPriority, setTaskPriority] = useState('')
     const [taskDetails, setTaskDetails] = useState('')
-
+    const navigate=useNavigate();
 //create a function of form handeling to add all data in local storage
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -25,7 +26,7 @@ export default function AddTask() {
         localStorage.setItem('tasks', JSON.stringify(existingTasks));
         // Show success toast notification
         toast.success('Task added successfully!');
-
+        navigate('/tasks');
         // Clear the form
         setTaskTitle('');
         setTaskDate('');

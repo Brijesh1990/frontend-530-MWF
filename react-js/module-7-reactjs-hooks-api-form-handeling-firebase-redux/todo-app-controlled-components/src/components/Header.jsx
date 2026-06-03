@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  // create an destructuring for total count task
+  const[tasks,setTasks]=useState([0]);
+   useEffect(() => {
+          const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+          console.log('Tasks from local storage:', tasks);
+      }, [tasks])
 
   return (
     <header className="bg-indigo-600 text-white shadow-md">
@@ -43,11 +49,13 @@ export default function Header() {
             <Link to="/tasks" className="hover:text-gray-200">
               Tasks
             </Link>
-            <Link to="/completed" className="hover:text-gray-200">
-              Completed
+            <Link to="#" className="hover:text-gray-200">
+              Total Task <span className="bg-red-600 text-white p-2 rounded-full ms-2">
+               {JSON.parse(localStorage.getItem('tasks'))?.length || 0} 
+              </span> 
             </Link>
-            <Link to="/profile" className="hover:text-gray-200">
-              Profile
+              <Link to="/contact-us" className="hover:text-gray-200">
+              Contact Us 
             </Link>
           </nav>
         </div>
