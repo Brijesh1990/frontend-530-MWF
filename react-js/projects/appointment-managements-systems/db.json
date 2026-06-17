@@ -1,0 +1,16 @@
+{
+  "appointments": [
+    {
+      "id": "E-kgul-rRls",
+      "patientName": "brijesh",
+      "email": "b@gmail.com",
+      "phone": "9998003879",
+      "doctor": "rajesh",
+      "date": "2026-06-10",
+      "time": "16:54",
+      "status": "Pending",
+      "notes": "hi"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
