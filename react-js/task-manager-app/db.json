@@ -1,6 +1,68 @@
 {
-  "addtask": [],
-  "assignto": [],
+  "addtask": [
+    {
+      "title": "create a rest api in laravel",
+      "description": "done it",
+      "employee": "sweta",
+      "priority": "High",
+      "dueDate": "2026-07-01",
+      "status": "Pending",
+      "id": "kzN7sqj9Nac"
+    },
+    {
+      "title": "create a rest api in laravel",
+      "description": "hi",
+      "employee": "sweta",
+      "priority": "High",
+      "dueDate": "2026-07-01",
+      "status": "In Progress",
+      "id": "gl31N_3Fc_Y"
+    },
+    {
+      "title": "angular js crud app",
+      "description": "ji",
+      "employee": "brijesh",
+      "priority": "Low",
+      "dueDate": "2026-07-01",
+      "status": "Pending",
+      "id": "v3iRue0sLVA"
+    },
+    {
+      "title": "rest api integeration task",
+      "description": "hi done it on priority",
+      "employee": "sweta",
+      "priority": "High",
+      "dueDate": "2026-07-01",
+      "status": "Pending",
+      "id": "yyqv_Fk6SvA"
+    }
+  ],
+  "addemployee": [
+    {
+      "name": "brijesh",
+      "age": "35",
+      "phone": "921211256",
+      "id": "FhZ5TOSMBYs"
+    },
+    {
+      "name": "sweta",
+      "age": "21",
+      "phone": "9851212121",
+      "id": "ikqe_DepJjw"
+    },
+    {
+      "name": "hetvi",
+      "age": "21",
+      "phone": "8121212121",
+      "id": "0cpoXlGX30c"
+    },
+    {
+      "name": "aksh",
+      "age": "22",
+      "phone": "9221212215",
+      "id": "xs6f0dkEob0"
+    }
+  ],
   "register": [
     {
       "fullname": "sweta",
@@ -11,6 +73,26 @@
       "phone": "9998003879",
       "address": "150 feet ring road rajkot",
       "id": "C_N4GP3UciQ"
+    },
+    {
+      "fullname": "nilesh",
+      "email": "nilesh@gmail.com",
+      "password": "123456",
+      "cpassword": "123456",
+      "gender": "female",
+      "phone": "09714111189",
+      "address": "Amrut Nagar, Chakkar Gadh Road Street No-2, Block No.A/5",
+      "id": "HvfSnHDjQ80"
+    },
+    {
+      "fullname": "",
+      "email": "bkpandey.pandey@gmail.com",
+      "password": "123456789",
+      "cpassword": "",
+      "gender": "female",
+      "phone": "",
+      "address": "",
+      "id": "1CEKuwp9ldQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

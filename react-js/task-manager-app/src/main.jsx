@@ -7,6 +7,7 @@ import LoginApp from './LoginApp'
 import Layout from './Layout'
 import AddTask from './AddTask'
 import TaskDescription from './TaskDescription'
+import AddEmployee from './AddEmployee'
 import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/dashboard' element={<Layout />} />
         <Route path='/add-task' element={<AddTask />} />
         <Route path='/task-description' element={<TaskDescription />} />
+        <Route path='/add-employee' element={<AddEmployee />} />
       </Routes>
     </Router>
   </StrictMode>,
